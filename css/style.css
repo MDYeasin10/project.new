@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1 h2 h3 h4 h5 h6 P{
+    padding: 0;
+    line-height: 0.8;
+}
+ul li a{
+   
+    text-decoration: none;
+
+}
+#tophead{
+    background-image: url(/picture/bg.png);
+height: 700px;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.topcontainer{
+    height: 80px;
+background-color: rgb(64, 7, 144);
+
+    width: 100%;
+}
+.topcontflex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menupart{
+    display: flex;
+    gap: 40px;
+    color: antiquewhite;
+
+}
+.logopart{
+    padding: 10px 70px;
+    margin-left: 50px;
+
+}
+.menupart li{
+ display: flex;
+ display: inline-block;
+ gap: 40px;
+ font-size: 20px;
+ padding: 25px 0;
+ margin: 0px 20x;
+}
+.menupart li{
+    row-gap: 50px;
+    margin-left: 30px;
+
+}
+.menupart li a:hover{
+    color: greenyellow;
+}
+.menupart a{
+    color: aliceblue;
+}
+.button1 a{
+    padding: 5px 20px;
+    background-color: greenyellow;
+    color: rgb(23, 24, 25);
+    border-radius: 20px;
+    padding: 25px 0;
+    display: inline-block;
+    margin-right:260px ;
+    text-decoration: none;
+
+
+
+}
+.button1{
+    padding: 5px 10px;
+    transition: .4s;
+    border-radius: 20px;
+}
+.button1:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+.topheadtextpart{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(225, 218, 218);
+    padding-top: 120px;
+    padding: 90px 519px;
+}
+.button2{
+    text-align: center;
+    margin-left: -200px;
+
+
+}
+.button2 a{
+    padding: 15px 15px;
+   border-color: red;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(9, 10, 11);
+    box-sizing: 10px;
+    background-color: aqua;
+
+}
+.button2 a:hover{
+    background-color: greenyellow;
+}
+.button3 a{
+    padding: 15px 15px;
+    background-color:aqua;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(11, 12, 13);
+}
+.button3{
+    text-align: center;
+    
+        text-align: center;
+        margin-top: -23px;
+        margin-left: 280px;
+    }
+    .button3 a:hover{
+        background-color: greenyellow;
+    }
+    .headerpic{
+        margin-left: 1600px;
+        margin-top: -310px;
+    }
+    .headertext{
+        text-align: center;
+        display: flex;
+       margin-left: 500px;
+        font-size: 30px;
+        gap: 70px;
+        padding-top: 200px;
+    }
+    .text1{
+        font-size: 40px;
+        color: rgb(127, 255, 129);
+        font-weight: 800;
+    }
+    .text1 span{
+        color: rgb(13, 14, 15);
+        font-size:30px ;
+        font-weight: 500;
+    }
+    .text2{
+        font-size: 40px;
+        color: rgb(127, 255, 129);
+        font-weight: 800;
+    }
+    .text2 span{
+        color: rgb(13, 14, 15);
+        font-size:30px ;
+        font-weight: 500;
+    }
+    .text3{
+        font-size: 40px;
+        color: rgb(127, 255, 129);
+        font-weight: 800;
+    }
+    .text3 span{
+        color: rgb(13, 14, 15);
+        font-size:30px ;
+        font-weight: 500;
+    } .text4{
+        font-size: 40px;
+        color: rgb(127, 255, 129);
+        font-weight: 800;
+    }
+    .text4 span{
+        color: rgb(13, 14, 15);
+        font-size:30px ;
+        font-weight: 500;
+    }
+    .topbodypartflex{
+        display: flex;
+        margin-left: 200px;
+        text-decoration: none;
+    }
+    #topbody{
+        height: 400px;
+        width: 100%;
+    }
+    .topbodypartflex li{
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .topbodypartflex li:hover{
+        padding: 5px 5px;
+        color: aquamarine;
+        background-color: antiquewhite;
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+    .topbodypartright{
+       margin-left: 520px;
+    }
+    .topbodypartright h1{
+        margin-left: 0px;
+        font-size: 40px;
+
+    }
+    .topbodypartright .buttom4 a{
+        padding: 5px 5px;
+        color: rgb(246, 246, 246);
+        background-color:rgb(76, 122, 8) ;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 90px;
+        margin-left: 30px;
+        top: 50px;
+    }
+    .buttom4 a:hover{
+        background-color: rgb(25, 125, 213);
+        color: black;
+        
+    }
+    .buttom4{
+        margin-top: 30px;
+    }
+    .bodycontainer{
+        text-align: center;
+
+    }
+    .bodycontainer h1{
+        font-size: 50px;
+
+    }
+    #body{
+        height: 400px;
+        width: 100%;
+    }
+    .bodycontainer p{
+        font-weight: 500;
+    }
+    .bodyflex{
+        display:flex;
+        justify-content: space-between;
+    }
+.icontext{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.iconimage{
+    display: flex;
+}
+.pic1{
+
+}
+.pic2{
+    margin-left: -120px;
+    margin-top: -10px;
+}
+.pic3{
+    margin-left: -324px;
+    margin-top: 150px;
+}
+#bodydown{
+    height: 800px;
+    width: 100%;
+
+}
+.downleft{
+    height: 360px;
+    width: 370px;
+    background-color: antiquewhite;
+    margin-left: 200px;
+
+}
+.downright1{
+    height: 360px;
+    width: 370px;
+    background-color: antiquewhite;
+}
+.downright2{
+    height: 360px;
+    width: 370px;
+    background-color: antiquewhite;
+}
+    .downright3{
+        height: 360px;
+        width: 370px;
+        background-color: antiquewhite;
+        margin-left: 200px;
+    }
+    .downflex{
+        display: flex;
+        margin-left: 150px;
+        flex-wrap: wrap;
+        margin-top: 120px;
+        gap: 20px;
+        padding-left: 50px;
+    }
+
+        .downright4{
+            height: 360px;
+            width: 370px;
+            background-color: antiquewhite;
+        }
+
+            .downright5{
+                height: 360px;
+                width: 370px;
+                background-color: antiquewhite;
+            }
+ .downleft h1{
+    font-size: 50px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 30px;
+
+ }           
+.downleft p{
+    font-weight: 500;
+    color: black;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.downleft a{
+    padding: 5px 5px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.buttom7{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.downleft a:hover{
+    background-color: greenyellow;
+
+    color: black;
+}
+.downright1{
+    text-align: center;
+    
+
+}
+.downright1 h1{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.downright1 picture{
+    margin-top: 20px;
+}
+.downright1 a{
+    padding: 15px 15px;
+    background-color: aqua;
+   text-decoration: none;
+    margin-top: 90px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.button8{
+   margin-top: 80px;
+}
+.button8 a:hover{
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+.downright2{
+    text-align: center;
+    
+
+}
+.downright2 h1{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.downright2 picture{
+    margin-top: 20px;
+}
+.downright2 a{
+    padding: 15px 15px;
+    background-color: aqua;
+   text-decoration: none;
+    margin-top: 90px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.buttom9{
+   margin-top: 80px;
+}
+.buttom9 a:hover{
+    background-color: greenyellow;
+}
+
+
+
+
+.downright3{
+    text-align: center;
+    
+
+}
+.downright3 h1{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.downright3 picture{
+    margin-top: 20px;
+}
+.downright3 a{
+    padding: 15px 15px;
+    background-color: aqua;
+   text-decoration: none;
+    margin-top: 90px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.button10{
+   margin-top: 80px;
+}
+.button10 a:hover{
+    background-color: greenyellow;
+}
+
+
+.downright4{
+    text-align: center;
+    
+
+}
+.downright4 h1{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.downright4 picture{
+    margin-top: 20px;
+}
+.downright4 a{
+    padding: 15px 15px;
+    background-color: aqua;
+   text-decoration: none;
+    margin-top: 90px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.button11{
+   margin-top: 80px;
+}
+.button11 a:hover{
+    background-color: greenyellow;
+}
+
+
+.downright5{
+    text-align: center;
+    
+
+}
+.downright5 h1{
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+.downright5 picture{
+    margin-top: 20px;
+}
+.downright5 a{
+    padding: 15px 15px;
+    background-color: aqua;
+   text-decoration: none;
+    margin-top: 90px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.button12{
+   margin-top: 80px;
+}
+.button12 a:hover{
+    background-color: greenyellow;
+}
+.downleft:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.downright1:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.downright2:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.downright3:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.downright4:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.downright5:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+#lasttop{
+    height: 800px;
+    width: 100%;
+}
+.lasttopflex{
+    display: flex;
+    gap: 80px;
+    margin-left: 270px;
+    margin-top: 80px;
+
+}
+.lasttopcontainer{
+    text-align: center;
+    font-size: 40px;
+}
+.lasttopleft{
+    height: 600px;
+    width: 400px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.lasttopmiddle{
+    height: 600px;
+    width: 400px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.lasttopright{
+    height: 600px;
+    width: 400px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.lasttopleft h1{
+    font-size: 30px;
+    margin-top: 120px;
+
+}
+.lasttopleft h2{
+    font-size: 40px;
+    color: greenyellow;
+
+}
+.lasttopleft p{
+   font-weight: 500;
+   font-size: 25px;
+
+}
+
+.lasttopmiddle h1{
+    font-size: 30px;
+    margin-top: 120px;
+
+}
+.lasttopmiddle h2{
+    font-size: 40px;
+    color: greenyellow;
+    margin-top: 65px;
+
+}
+.lasttopmiddle p{
+   font-weight: 500;
+   font-size: 25px;
+  
+
+}
+.lasttopright h1{
+    font-size: 30px;
+    margin-top: 120px;
+
+}
+.lasttopright h2{
+    font-size: 40px;
+    color: greenyellow;
+    
+
+}
+.lasttopright p{
+   font-weight: 500;
+   font-size: 25px;
+  
+
+}
+.lasttopleft:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.lasttopmiddle:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.lasttopright:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+#lastpart{
+    height: 500px;
+    width: 1600px;
+    background-color: blueviolet;
+ border-radius: 30PX;
+    margin-left: 170px;
+}
+.lastconatainer{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.lastconatainer img{
+    margin-top: 100px;
+}
+.lastpartflex{
+    display: flex;
+    margin-left: 500px;
+    gap: 180px;
+    text-decoration: none;
+    margin-top: -150px;
+}
+.lastpartflex h1 ul li{
+    text-decoration: none;
+}
+.lastpart1{
+    text-decoration: none;
+   
+}
+.lastpart1 ul{
+    margin-top: 10px;
+}
+.lastpart1 li{
+    gap: 40px;
+    margin-top: 35px;
+}
+
+
+.lastpart2{
+    text-decoration: none;
+   
+}
+.lastpart2 ul{
+    margin-top: 10px;
+}
+.lastpart2 li{
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.lastpart3{
+    text-decoration: none;
+   
+}
+.lastpart3 ul{
+    margin-top: 10px;
+}
+.lastpart3 li{
+    gap: 40px;
+    margin-top: 20px;
+}
+.dive2mdlex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
